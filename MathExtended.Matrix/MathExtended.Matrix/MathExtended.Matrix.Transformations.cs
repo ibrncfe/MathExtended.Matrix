@@ -117,8 +117,8 @@ namespace MathExtended.Matrices
             _result[1, 1] = 1.0;
             _result[1, 2] = 0.0;
             _result[1, 3] = 0.0;
-            _result[1, 3] = moveX;
-            //
+            _result[1, 4] = moveX;
+            // 
             _result[2, 1] = 0.0;
             _result[2, 2] = 1.0;
             _result[2, 3] = 0.0;
